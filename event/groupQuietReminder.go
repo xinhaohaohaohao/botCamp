@@ -1,7 +1,7 @@
 package event
 
 import (
-	"botcamp/botDemo/api"
+	"botCamp/api"
 	lark "github.com/larksuite/oapi-sdk-go/v3"
 	"time"
 )

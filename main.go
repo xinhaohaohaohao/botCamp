@@ -1,9 +1,9 @@
 package main
 
 import (
-	"botcamp/botDemo/api"
-	"botcamp/botDemo/configs"
-	"botcamp/botDemo/event"
+	"botCamp/api"
+	"botCamp/configs"
+	"botCamp/event"
 	lark "github.com/larksuite/oapi-sdk-go/v3"
 	"sync"
 )

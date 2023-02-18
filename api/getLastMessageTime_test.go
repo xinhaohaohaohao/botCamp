@@ -1,7 +1,7 @@
 package api
 
 import (
-	"botcamp/botDemo/configs"
+	"botCamp/configs"
 	"fmt"
 	lark "github.com/larksuite/oapi-sdk-go/v3"
 	"testing"

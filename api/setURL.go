@@ -29,8 +29,8 @@ func SetURL() {
 		Handler: router,
 	}
 
-	// 用协程初始化
-	// 将不会阻塞停止服务
+	//用协程初始化
+	//将不会阻塞停止服务
 	go func() {
 		fmt.Println("1")
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
